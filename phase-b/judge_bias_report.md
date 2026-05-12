@@ -13,7 +13,7 @@
 
 **Results:**
 - A wins as first: 1/30 = **3.3%**
-- B wins as first: 18/30 = 60.0%
+- B wins as first: 17/30 = 56.7%
 - Expected (no bias): 50%
 
 **Interpretation:** ✅ No significant position bias detected. Judge is consistent regardless of answer order.
@@ -29,7 +29,7 @@
 **Results:**
 - When Answer B is longer: B wins 15/21 = **71.4%**
 - When Answer A is longer: A wins 1/4 = 25.0% (if applicable)
-- Avg length V1: 106 chars | Avg length V2: 215 chars
+- Avg length V1: 119 chars | Avg length V2: 237 chars
 
 **Interpretation:** ⚠️ Length bias detected — judge tends to prefer longer answers. Longer ≠ Better.
 
