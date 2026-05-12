@@ -1,0 +1,29 @@
+{
+  "kappa": -0.0909,
+  "interpretation": "WORSE than chance \u2014 judge systematically disagrees with human",
+  "n_pairs": 10,
+  "human_labels": [
+    "TIE",
+    "B",
+    "B",
+    "B",
+    "A",
+    "B",
+    "B",
+    "B",
+    "B",
+    "B"
+  ],
+  "judge_labels": [
+    "B",
+    "B",
+    "B",
+    "TIE",
+    "TIE",
+    "TIE",
+    "B",
+    "TIE",
+    "TIE",
+    "B"
+  ]
+}

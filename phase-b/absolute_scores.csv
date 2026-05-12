@@ -23,9 +23,9 @@ accuracy,relevance,conciseness,helpfulness,overall,question
 1,1,5,1,2.0,"How can RAG systems ensure the ethical use of personal data when generating responses based on retrieved information, in accordance with Vietnam's regulations on personal data protection outlined in Nghị định 13/2023/NĐ-CP?"
 1,2,5,1,2.25,What is the typical latency for top-5 retrieval over 100k vectors in FAISS?
 1,2,5,1,2.25,"How do the input guardrails and output guardrails collectively contribute to the safety of LLM systems, and what might be a potential consequence if one of these levels were to be ineffective?"
-1,1,5,1,2.0,How do the policies regarding vacation days for employees relate to the principles of retrieval-augmented generation systems in terms of ensuring relevant and context-supported answers?
+5,1,5,1,3.0,How do the policies regarding vacation days for employees relate to the principles of retrieval-augmented generation systems in terms of ensuring relevant and context-supported answers?
 1,2,5,1,2.25,What are the known biases in LLM-as-Judge evaluation?
-1,1,5,1,2.0,"What security measures must remote employees follow when accessing sensitive company data, and how are PII detection techniques relevant in the context of handling customer and employee data?"
+4,4,5,3,4.0,"What security measures must remote employees follow when accessing sensitive company data, and how are PII detection techniques relevant in the context of handling customer and employee data?"
 3,5,5,4,4.25,Thời gian thử việc đối với công việc văn phòng là bao lâu?
-1,1,5,1,2.0,"How does the evaluation method of LLM-as-Judge mitigate biases, and how might this relate to the approval process for employee leave requests outlined in the leave policy?"
+1,2,5,1,2.25,"How does the evaluation method of LLM-as-Judge mitigate biases, and how might this relate to the approval process for employee leave requests outlined in the leave policy?"
 5,5,5,5,5.0,Nhân viên phải làm gì khi kết thúc hợp đồng với công ty?

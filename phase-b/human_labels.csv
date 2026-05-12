@@ -1,11 +1,11 @@
 question_id,question_preview,human_winner,confidence,notes
-0,Thời gian thử việc đối với công việc văn phòng là bao lâu?,B,high,"Manual review: compared answer length, factual accuracy, and relevance."
-1,How does the performance of FAISS in terms of latency for to,B,high,"Manual review: compared answer length, factual accuracy, and relevance."
-2,How do the input guardrails and output guardrails collective,B,high,"Manual review: compared answer length, factual accuracy, and relevance."
-3,If an employee in an office job starts on January 1st and su,tie,high,"Manual review: compared answer length, factual accuracy, and relevance."
-4,"Khi nhân viên làm việc từ xa, công ty cần lưu ý điều gì liên",tie,high,"Manual review: compared answer length, factual accuracy, and relevance."
-5,What measures are taken to protect sensitive information in ,tie,high,"Manual review: compared answer length, factual accuracy, and relevance."
-6,How does the evaluation method of LLM-as-Judge mitigate bias,A,high,"Manual review: compared answer length, factual accuracy, and relevance."
-7,How do the policies regarding vacation days for employees re,tie,high,"Manual review: compared answer length, factual accuracy, and relevance."
-8,What commitment must employees make after receiving training,tie,high,"Manual review: compared answer length, factual accuracy, and relevance."
-9,Dữ liệu cá nhân cơ bản bao gồm những thông tin nào theo Nghị,B,high,"Manual review: compared answer length, factual accuracy, and relevance."
+0,Thời gian thử việc đối với công việc văn phòng là bao lâu?,tie,medium,Auto-placeholder — replace with your judgment
+1,How does the performance of FAISS in terms of latency for to,B,medium,Auto-placeholder — replace with your judgment
+2,How do the input guardrails and output guardrails collective,B,medium,Auto-placeholder — replace with your judgment
+3,If an employee in an office job starts on January 1st and su,B,medium,Auto-placeholder — replace with your judgment
+4,"Khi nhân viên làm việc từ xa, công ty cần lưu ý điều gì liên",A,medium,Auto-placeholder — replace with your judgment
+5,What measures are taken to protect sensitive information in ,B,medium,Auto-placeholder — replace with your judgment
+6,How does the evaluation method of LLM-as-Judge mitigate bias,B,medium,Auto-placeholder — replace with your judgment
+7,How do the policies regarding vacation days for employees re,B,medium,Auto-placeholder — replace with your judgment
+8,What commitment must employees make after receiving training,B,medium,Auto-placeholder — replace with your judgment
+9,Dữ liệu cá nhân cơ bản bao gồm những thông tin nào theo Nghị,B,medium,Auto-placeholder — replace with your judgment
