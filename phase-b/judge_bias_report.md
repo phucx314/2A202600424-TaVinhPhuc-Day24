@@ -39,9 +39,9 @@
 
 ## Human Calibration (Cohen's Kappa)
 
-**Kappa score:** 0.0000
+**Kappa score:** 0.8182
 
-**Interpretation:** Moderate/fair agreement — monitor judge decisions before full deployment
+**Interpretation:** Almost perfect agreement — LLM judge is reliable for automated scoring (source: `kappa_results.json`)
 
 ---
 
