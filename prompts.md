@@ -7,7 +7,7 @@
 ## Session 1 — 2026-05-12
 
 ### Prompt 1 — System Architecture & Planning
-**Tool:** Claude 3.5 Sonnet
+**Tool:** Claude Sonnet 4.6
 **Prompt:**
 > "Please analyze the Lab 24 PDF instructions and help me outline a technical implementation plan that covers all requirements from Phase A to Phase D. I need to ensure the architecture is production-ready and includes RAGAS evaluation, LLM-as-a-Judge, and a multi-layer guardrail system."
 
@@ -18,7 +18,7 @@
 ---
 
 ### Prompt 2 — RAG Adapter Implementation
-**Tool:** Claude 3.5 Sonnet
+**Tool:** Claude Sonnet 4.6
 **Prompt:**
 > "Help me implement a lightweight RAG adapter using FAISS and OpenAI embeddings. The system should support asynchronous queries and local indexing to optimize performance for the evaluation pipeline."
 
@@ -29,7 +29,7 @@
 ---
 
 ### Prompt 3 — Guardrails & Latency Benchmarking
-**Tool:** Claude 3.5 Sonnet
+**Tool:** Claude Sonnet 4.6
 **Prompt:**
 > "I need to implement a 4-layer guardrail stack as described in Phase C. Please help me structure the `InputGuard` and `OutputGuard` classes using asyncio to run checks in parallel and minimize latency overhead."
 
@@ -40,7 +40,7 @@
 ---
 
 ### Prompt 4 — Evaluation & Report Generation
-**Tool:** Claude 3.5 Sonnet
+**Tool:** Claude Sonnet 4.6
 **Prompt:**
 > "Assist me in calculating Cohen's Kappa score for the LLM judge calibration and generating a summary report for the RAGAS metrics."
 
