@@ -1,0 +1,8 @@
+{
+  "faithfulness": 0.46,
+  "answer_relevancy": 0.314,
+  "context_precision": 0.5587,
+  "context_recall": 0.55,
+  "judge_model": "gpt-4o-mini",
+  "n_questions": 10
+}

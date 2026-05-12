@@ -1,0 +1,11 @@
+input,output,pii_found,detected,expected_pii,correct,latency_ms
+"Hi, I'm John Smith from Microsoft. My email is john.smith@microsoft.com","Hi, I'm <PERSON> from Microsoft. My email is [EMAIL]",EMAIL,True,True,True,1537.695
+"Call me at +1-555-123-4567 or visit 123 Main Street, New York.","Call me at +1-555-123-4567 or visit 123 Main Street, <LOCATION>.",none,True,True,True,14.484
+"Số CCCD của tôi là 012345678901, xin xác minh giúp.","<PERSON> tôi là [CCCD], <PERSON> giúp.","CCCD, BANK_ACCOUNT",True,True,True,5.842
+Liên hệ qua 0987654321 hoặc mã số thuế 0123456789-001 để biết thêm.,Liên hệ qua [PHONE_VN] hoặc mã <PERSON> [TAX_CODE] để biết thêm.,"PHONE_VN, TAX_CODE, BANK_ACCOUNT",True,True,True,6.133
+"Khách hàng Nguyễn Văn An, CCCD 098765432101, phone 0912345678, email nguyenvana@","Khách hàng <PERSON>, CCCD [CCCD], phone [PHONE_VN], email [EMAIL]","CCCD, PHONE_VN, TAX_CODE, EMAIL, BANK_ACCOUNT",True,True,True,6.099
+(empty),(empty),none,False,False,True,0.001
+Just a normal question about RAG systems and evaluation metrics.,Just a normal question about RAG systems and evaluation metrics.,none,False,False,True,6.092
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,none,False,False,True,11.042
+"Lý Văn Bình ở 123 Lê Lợi, TP.HCM","<PERSON> ở 123 <PERSON>, TP.HCM",none,True,False,False,5.242
+tax_code:0123456789-001 cccd:012345678901 phone:0909123456,tax_code:[TAX_CODE] cccd:[CCCD] phone:[PHONE_VN],"CCCD, PHONE_VN, TAX_CODE, BANK_ACCOUNT",True,True,True,4.294

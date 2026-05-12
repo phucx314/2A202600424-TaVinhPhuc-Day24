@@ -1,0 +1,30 @@
+{
+  "cohen_kappa": 0.8182,
+  "interpretation": "almost perfect",
+  "n_compared": 10,
+  "agreement_pct": 90.0,
+  "llm_predictions": [
+    "B",
+    "B",
+    "B",
+    "tie",
+    "tie",
+    "tie",
+    "B",
+    "tie",
+    "tie",
+    "B"
+  ],
+  "human_labels": [
+    "B",
+    "B",
+    "B",
+    "tie",
+    "tie",
+    "tie",
+    "A",
+    "tie",
+    "tie",
+    "B"
+  ]
+}

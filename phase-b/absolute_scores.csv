@@ -1,0 +1,31 @@
+accuracy,relevance,conciseness,helpfulness,overall,question
+1,1,5,1,2.0,Dữ liệu cá nhân cơ bản bao gồm những thông tin nào theo Nghị định 13/2023/NĐ-CP?
+1,1,5,1,2.0,What are the three types of input guardrails mentioned for LLM systems?
+1,1,5,1,2.0,"If a RAG pipeline evaluates with a faithfulness score of 0.90, an answer relevancy score of 0.78, a context precision score of 0.72, and a context recall score of 0.80, which target thresholds has it met, and what improvements are necessary for it to be fully compliant with production standards?"
+5,5,5,5,5.0,Mật khẩu phải có ít nhất bao nhiêu ký tự và bao gồm những yếu tố nào?
+5,5,5,5,5.0,Lao động nữ được nghỉ thai sản trong bao lâu?
+5,5,5,5,5.0,What is the maximum training cost support per employee per year provided by the company?
+1,1,5,1,2.0,"What are the target thresholds for faithfulness, answer relevancy, context precision, and context recall in RAGAS?"
+3,5,4,4,4.0,"If an employee has worked for 12 years and wants to take a vacation, how many total paid leave days do they have, and what is the minimum notice period required for their leave request?"
+5,5,4,5,4.75,"Khi nhân viên làm việc từ xa, công ty cần lưu ý điều gì liên quan đến bảo vệ dữ liệu cá nhân và các biện pháp bảo mật nào được áp dụng?"
+1,1,5,1,2.0,What measures are taken to protect sensitive information in LLM systems and remote work environments?
+1,1,5,1,2.0,How does the company's professional training support align with the latency management goals in programming projects?
+1,1,5,1,2.0,What could be the potential consequences for an employee who fails to change their password within the required 90 days and does not report a password leak?
+1,1,5,1,2.0,"What commitment must employees make after receiving training support from the company, and how does this relate to the detection of personally identifiable information in Vietnamese documents?"
+1,1,5,1,2.0,"How does the use of regex patterns for structured formats differ from NER models for unstructured text in the context of PII detection, and what implications does this have for processing Vietnamese documents?"
+1,2,5,1,2.25,How might the use of explicit rubrics to address length bias impact the overall evaluation process in LLM-as-Judge compared to simply swapping answers to mitigate position bias?
+1,2,5,1,2.25,"How does the performance of FAISS in terms of latency for top-5 retrieval over 100k vectors compare to what might be expected for similar systems handling larger datasets, such as billion-scale indices?"
+5,5,4,5,4.75,What are the conditions regarding sick leave and the training support provided by the company for employees?
+5,5,5,5,5.0,"If an employee in an office job starts on January 1st and successfully completes their probation period, when can they expect to sign their official employment contract and receive their first full salary payment?"
+3,5,5,3,4.0,How many days of annual leave is a regular employee entitled to each year?
+1,1,5,1,2.0,"How can FAISS be utilized to improve the evaluation process in LLM-as-Judge, considering its capabilities in handling embeddings and the known biases in scoring outputs?"
+1,1,5,1,2.0,How does the role of the retrieval component in RAG systems affect the faithfulness and relevancy of the generated answers?
+1,1,5,1,2.0,"How can RAG systems ensure the ethical use of personal data when generating responses based on retrieved information, in accordance with Vietnam's regulations on personal data protection outlined in Nghị định 13/2023/NĐ-CP?"
+1,2,5,1,2.25,What is the typical latency for top-5 retrieval over 100k vectors in FAISS?
+1,2,5,1,2.25,"How do the input guardrails and output guardrails collectively contribute to the safety of LLM systems, and what might be a potential consequence if one of these levels were to be ineffective?"
+1,1,5,1,2.0,How do the policies regarding vacation days for employees relate to the principles of retrieval-augmented generation systems in terms of ensuring relevant and context-supported answers?
+1,2,5,1,2.25,What are the known biases in LLM-as-Judge evaluation?
+1,1,5,1,2.0,"What security measures must remote employees follow when accessing sensitive company data, and how are PII detection techniques relevant in the context of handling customer and employee data?"
+3,5,5,4,4.25,Thời gian thử việc đối với công việc văn phòng là bao lâu?
+1,1,5,1,2.0,"How does the evaluation method of LLM-as-Judge mitigate biases, and how might this relate to the approval process for employee leave requests outlined in the leave policy?"
+5,5,5,5,5.0,Nhân viên phải làm gì khi kết thúc hợp đồng với công ty?

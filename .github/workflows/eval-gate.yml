@@ -1,0 +1,53 @@
+name: RAG Eval Gate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  ragas-eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m spacy download en_core_web_lg
+
+      - name: Verify RAGAS import
+        run: python -c "import ragas; print('RAGAS OK:', ragas.__version__)"
+
+      - name: Run RAGAS evaluation
+        run: |
+          python scripts/run_eval.py \
+            --threshold faithfulness=0.85 \
+            --threshold answer_relevancy=0.80 \
+            --threshold context_precision=0.70 \
+            --threshold context_recall=0.75 \
+            --summary phase-a/ragas_summary.json
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Upload RAGAS report (always, for audit)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ragas-report-${{ github.sha }}
+          path: |
+            phase-a/ragas_results.csv
+            phase-a/ragas_summary.json
+            phase-a/failure_analysis.md
+          retention-days: 30
